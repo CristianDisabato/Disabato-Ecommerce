@@ -15,7 +15,6 @@ const promesa = new Promise ((resolve, reject) => {
     .catch(error => console.error("Error:", error))
   }, [])
 
-  console.log(prendas);
 
   return (<>
   <ItemList prendas={prendas}/> </>);  
