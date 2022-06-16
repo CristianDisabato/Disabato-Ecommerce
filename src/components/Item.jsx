@@ -1,10 +1,14 @@
 import React from "react"
 import { Button, Card } from "react-bootstrap"
+import logo from "./logo-buzo.webp"
+import { Link, useParams } from 'react-router-dom';
+
+
 function Item({prenda}) { 
-    const [ nombre, descripcion, precio, estado, stock ] = prenda
+    const {nombre, descripcion, precio, estado, stock} = prenda
     return (<>
-              <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+              <Card style={{ width: '20rem' }}>
+              <Link to="/item/:id"> <Card.Img variant="top" src={logo} /> </Link>
         <Card.Body>
     <Card.Title>{nombre}</Card.Title>
     <Card.Text>
@@ -14,14 +18,16 @@ function Item({prenda}) {
         <br />
         Estado: {estado}
     </Card.Text>
-    <Button variant="primary">Ver detalle del producto</Button>
+    <Link to="/item/:id"> <Button  variant="primary">Ver detalle del producto</Button> </Link>
     <Card.Text>
         Stock disponible: {stock}
     </Card.Text>
   </Card.Body>
 </Card>
             </>
-    );  
+    );
+    
+    
 }
 
   
