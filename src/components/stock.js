@@ -1,7 +1,7 @@
 export const productos =[
     {
         "nombre": "Remera",
-        "id": "234",
+        "id": "0",
         "stock": "17",
         "descripcion": "Una remera que re va con vos",
         "precio": "$1200",
@@ -10,7 +10,7 @@ export const productos =[
 
     {
         "nombre": "Remera",
-        "id": "2334",
+        "id": "1",
         "stock": "17",
         "descripcion": "Una remera que re va con vos",
         "precio": "$1600",
@@ -19,7 +19,7 @@ export const productos =[
 
     {
         "nombre": "Remera",
-        "id": "22234",
+        "id": "2",
         "stock": "17",
         "descripcion": "Una remera que re va con vos",
         "precio": "$2000",
@@ -28,7 +28,7 @@ export const productos =[
 
     {
         "nombre": "Buzo",
-        "id": "25534",
+        "id": "3",
         "stock": "17",
         "descripcion": "Un buzo que re va con vos",
         "precio": "$1200",
@@ -37,7 +37,7 @@ export const productos =[
 
     {
         "nombre": "Buzo",
-        "id": "1234",
+        "id": "4",
         "stock": "17",
         "descripcion": "Un buzo que re va con vos",
         "precio": "$3000",
@@ -46,7 +46,7 @@ export const productos =[
 
     {
         "nombre": "Buzo",
-        "id": "23555554",
+        "id": "5",
         "stock": "17",
         "descripcion": "Un buzo que re va con vos",
         "precio": "$1200",
@@ -55,7 +55,7 @@ export const productos =[
 
     {
         "nombre": "Campera",
-        "id": "2211134",
+        "id": "6",
         "stock": "17",
         "descripcion": "Una campera que re va con vos",
         "precio": "$4500",
@@ -64,7 +64,7 @@ export const productos =[
 
     {
         "nombre": "Campera",
-        "id": "233454",
+        "id": "7",
         "stock": "17",
         "descripcion": "Una campera que re va con vos",
         "precio": "$4500",
@@ -73,7 +73,7 @@ export const productos =[
 
     {
         "nombre": "Campera",
-        "id": "2353454",
+        "id": "8",
         "stock": "17",
         "descripcion": "Una campera que re va con vos",
         "precio": "$4500",
@@ -82,7 +82,7 @@ export const productos =[
 
     {
         "nombre": "Campera",
-        "id": "232424234",
+        "id": "9",
         "stock": "17",
         "descripcion": "Una campera que re va con vos",
         "precio": "$4500",
@@ -91,7 +91,7 @@ export const productos =[
 
     {
         "nombre": "Campera",
-        "id": "22223334",
+        "id": "10",
         "stock": "17",
         "descripcion": "Una campera que re va con vos",
         "precio": "$4500",
@@ -100,7 +100,7 @@ export const productos =[
 
     {
         "nombre": "Campera",
-        "id": "23884",
+        "id": "11",
         "stock": "17",
         "descripcion": "Una campera que re va con vos",
         "precio": "$4500",

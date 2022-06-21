@@ -1,0 +1,10 @@
+.loadingText{
+    text-align: center;
+    color: white;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.loadingspin{
+    display: flex;
+    justify-content: center;
+}

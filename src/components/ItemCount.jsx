@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import './ItemCount.css';
+import { Button } from 'react-bootstrap';
 
-function ItemCount({maxstock, initialstock}) { 
+function ItemCount({maxstock, initialstock, onAdd}) { 
     const [c, setc] = useState(0);
     
     useEffect(() => {
@@ -15,25 +16,25 @@ function ItemCount({maxstock, initialstock}) {
 
     return  (
     <>
+
     <div>
-        <h1>Camisa Lacoste</h1>
-        <p className="pstock"> LLEVANDO: {c} CAMISA LACOSTE </p>
+        <p className="pstock"> LLEVANDO: {c} PRODUCTOS </p>
         <br />
-        <button className="buttonadd" onClick={() => {
+        <Button  variant="success" className="buttonadd" onClick={() => {
             setc(c + 1);
         }}>
             AÑADIR
-        </button>
-        <button className="buttonrest" onClick={() => {
+            </Button>
+            <Button  variant="danger" className="buttonrest" onClick={() => {
             setc(c - 1);
         }}>
             QUITAR
-        </button>
-        <button className="buttoncarrito" onClick={() => {
-            alert("Añadido al carrito")
+            </Button>
+            <Button  variant="info" className="buttoncarrito" onClick={() => {
+            onAdd(c)
         }}>
             AÑADIR AL CARRITO
-        </button>
+            </Button>
     </div>
     </>)
 }
