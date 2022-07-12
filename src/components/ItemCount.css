@@ -1,0 +1,12 @@
+.pstock{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 150%;
+}
+
+.buttoncenter{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}

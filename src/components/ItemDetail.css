@@ -1,0 +1,18 @@
+.asd{
+    display: flex;
+    justify-content: center;
+    margin-top: -50;
+}
+.detailtext{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: -0.5%;
+}
+.buttoncenter{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+.buttoninfo{
+    color: white;
+}
