@@ -4,9 +4,22 @@
     font-weight: 800;
     font-size: 150%;
 }
+<<<<<<< HEAD
 
 .buttoncenter{
     display: flex;
     justify-content: center;
     gap: 1%;
+=======
+.buttonadd, .buttoncarrito, .buttonrest{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 100%;
+    color: black;
+    border-radius: 0px;
+    border: 2px solid #EDD8D8;
+    margin:auto;
+    display:block;
+>>>>>>> 841f5d4944b8c436fa014e1989a377caef5a4ba5
 }

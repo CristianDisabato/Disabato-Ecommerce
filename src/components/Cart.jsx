@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../context/CartContext.js';
@@ -67,3 +68,16 @@ export default function Cart() {
   )
 }
 
+=======
+import React from 'react'
+import { useContext } from 'react'
+
+export default function Cart() {
+
+  const {cart} = useContext(CartContext)
+
+  return (
+    <div>Cart</div>
+  )
+}
+>>>>>>> 841f5d4944b8c436fa014e1989a377caef5a4ba5

@@ -4,6 +4,7 @@ import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
 import ItemDetailContainer from "./ItemDetailContainer";
 import ItemDetail from './ItemDetail';
+<<<<<<< HEAD
 import Loading from "./Loading";
 
 import {
@@ -47,6 +48,32 @@ import {
 
   return (<>
       <ItemList prendas={prendas}/>
+=======
+import Loading from './Loading';
+
+function ItemListContainer() { 
+  const [loading, setLoading] = useState(true);
+  const {id} = useParams();
+  
+
+
+const [prendas, setPrendas] = useState([])
+const promesa = new Promise ((resolve, reject) => {
+  setTimeout(() => {
+    resolve(productos)
+  }, 3500);
+}) 
+  useEffect(() => {
+    promesa
+    .then(res => setPrendas(res))
+    .catch(error => console.error("Error:", error))
+    .finally(()=> setLoading(false));
+  }, [])
+
+
+  return (<>
+    {loading ? <Loading />: <ItemList prendas={prendas}/> }
+>>>>>>> 841f5d4944b8c436fa014e1989a377caef5a4ba5
     </>); 
 
 }
